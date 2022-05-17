@@ -70,9 +70,9 @@ def calculate_minutiaes(im, kernel_size=3):
                 biendemend = biendemend + 1
             if minutiae == 'bifurcation':
                 biendembif = biendembif + 1
-
-    #print ('tong', biendem)
-    #print ('ending', biendemend)
-    #print ('bifur', biendembif)
+    print('      ')
+    print ('tong', biendem)
+    print ('ending', biendemend)
+    print ('bifur', biendembif)
 
     return result
